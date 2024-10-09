@@ -126,18 +126,20 @@ This hands on allows to play with BLE 5.4 PAwR feature. In 05-STM32WB0-WS-PAwR.p
 **How to replicate:** the demo ([ESL like](https://github.com/stm32-hotspot/STM32WB0-BLE-PAwR-ESL)) is based on samples code part of [STM32CubeWB0](https://www.st.com/en/embedded-software/stm32cubewb0.html#get-software) 
 
 1. Build and flash STM32Cube_FW_WB0_V1.0.0\Projects\NUCLEO-WB09KE\Applications\BLE\BLE_PAwR_Broadcaster to NUCLEO-WB09KE
-2. Build and flash STM32Cube_FW_WB0_V1.0.0\Projects\NUCLEO-WB09KE\Applications\BLE\BLE_PAwR_Observer to NUCLEO-WB09KE
-3. Connect BLE_PAwR_Broadcaster NUCLEO-WB09KE to Docklight or Tera Term
+   - or flash the image part of PAwR binaries repository
+3. Build and flash STM32Cube_FW_WB0_V1.0.0\Projects\NUCLEO-WB09KE\Applications\BLE\BLE_PAwR_Observer to NUCLEO-WB09KE
+   - or flash the image part of PAwR binaries repository
+5. Connect BLE_PAwR_Broadcaster NUCLEO-WB09KE to Docklight or Tera Term
    - Baudrate 115200 bps
    - Data bits: 8
    - Parity: none
    - Stop bits: 1.
-4. Connect BLE_PAwR_Observer NUCLEO-WB09KE to Docklight or Tera Term
+6. Connect BLE_PAwR_Observer NUCLEO-WB09KE to Docklight or Tera Term
    - Baudrate 921600 bps
    - Data bits: 8
    - Parity: none
    - Stop bits: 1.
-6. Once board associated (PAwR train exhanged) insert AT command on the BLE_PAwR_Broadcaster terminal to control LED of the BLE_PAwR_Observer.Type ATE to enable local echo.
+7. Once board associated (PAwR train exhanged) insert AT command on the BLE_PAwR_Broadcaster terminal to control LED of the BLE_PAwR_Observer.Type ATE to enable local echo.
 
 - Turn on an LED on BLE_PAwR_Observer:
 - - AT+LED=0,0,1
@@ -153,6 +155,7 @@ First 06-STM32WB0-WS-Handson_BLE_AddOn.pdf will give you clear understanding abo
 Thanks to X-NUCLEO-WB05KN1 expansion board you will then able to easily add BLE to an existing application.
 
 **How to replicate:** The demo is based on Zephyr ecosytem and associated shield https://docs.zephyrproject.org/latest/boards/shields/x_nucleo_wb05kn1/doc/index.html. 
+
 Here we do recommand to follow up [Zephyr instructions](https://docs.zephyrproject.org/latest/develop/getting_started/index.html) for setup installation and build instruction.
 
 ## 5. Understand how to design your HW over WB0, how to test it and move to certification

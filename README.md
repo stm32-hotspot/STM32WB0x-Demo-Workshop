@@ -29,7 +29,7 @@ In 03-STM32WB0-WS-Handson Introduction and Beacon.pdf you will understand BLE Be
 ## 2. Build a peripheral profile (P2PServer) over NUCLEO-WB09KE
 In 04-STM32WB0-WS-Handson_P2PServer.pdf file you will understand BLE profile concepts, trough service and characteristic demystification.
 
-**How to replicate:** Please follow the steps by steps explanations part of the pdf. You will find the needed BLE_WS_WB0_HandsOn.ioc here **[link](https://github.com/stm32ws2023/STM32WB0_WS/blob/main/STM32WB09_IOC_WS_WB0/BLE_WS_WB0_HandsOn.ioc )**
+**How to replicate:** Please follow the steps by steps explanations part of the pdf. You will find the needed BLE_WS_WB0_HandsOn.ioc here **[link](https://github.com/stm32-hotspot/STM32WB0x-Demo-Workshop/tree/main/BLE_WS_WB0_HandsOn%20P2PServer/BLE_WS_WB0_HandsOn.ioc )**
 
 To ease Profile configuration (UUIDs) and application code to be added in user section, you can copy code from bellow lines.
 

@@ -1,6 +1,8 @@
 # STM32WB0x-Demo-Workshop
 Discover how the [STM32WB0 series](https://community.st.com/t5/developer-news/new-stm32wb0-products-facilitate-bluetooth-low-energy-5-4/ba-p/695356) can streamline your Bluetooth® Low Energy 5.4 integration.
 
+Please find here the link to the associated [video event](https://youtu.be/aqcGFw2q8dE).
+
 
 # Overview
 This repository integrates the PDF material used during [STM32WB0 Demo Workshop event](https://content.st.com/stm32wb0x-workshop-emea.html)
